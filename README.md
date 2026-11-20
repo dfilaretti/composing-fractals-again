@@ -11,13 +11,13 @@ Fractals have fascinated me since I was a teenager, so I thought I'd play with t
 The code in this repo can generate both ASCII art like this
 
 <p align="center">
-  <img src="img/ascii.png" alt="ASCII art" width="300">
+  <img src="img/ascii.png" alt="ASCII art" width="600">
 </p>
 
 as well as actual images:
 
 <p align="center">
-  <img src="img/full-mandelbrot.png" alt="The Mandelbrot set" width="300">
+  <img src="img/full-mandelbrot.png" alt="The Mandelbrot set" width="500">
 </p>
 
 The implementation closely follows the paper, so I'm not going to go over it again here.
