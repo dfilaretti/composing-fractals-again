@@ -23,7 +23,7 @@ as well as actual images:
 The implementation closely follows the paper, so I'm not going to go over it again here.
 Here's what I did differently:
 
-* **Rendering with Juicy Pixels.** The paper is old, and I'm not sure whether the drawing library it used is still available or maintained. As the author mentions, the particular library doesn't really matter: the program is designed to be modular in that regard. I chose Juicy Pixels because it seemed simple and its API was close to what the paper describes. People on the Haskell Forum also suggested Brillo and Diagrams.
+* **Rendering with [Juicy Pixels](https://hackage.haskell.org/package/JuicyPixels).** The paper is old, and I'm not sure whether the drawing library it used is still available or maintained. As the author mentions, the particular library doesn't really matter: the program is designed to be modular in that regard. I chose Juicy Pixels because it seemed simple and its API was close to what the paper describes. People on the Haskell Forum also suggested Brillo and Diagrams.
 * **Choosing the part of the set to draw.** The paper asks for a window size (columns × rows) and two points (lower left and upper right) defining the part of the set to draw. I found that a little inconvenient: if the aspect ratios of the window and the selected area differ, the image gets distorted. So I added a helper that takes a centre point and a radius, builds a square, and adjusts it to match the window's aspect ratio. It then returns the two points, so the image won't be distorted.
 
 Everything else should be quite consistent with the paper.
