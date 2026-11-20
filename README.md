@@ -1,8 +1,11 @@
-# mandelbrot
+# "Composing Fractals", again
 
-## Build
+<p align="center">
+  <img src="img/nicePic.png" alt="Some nice image" width="300">
+</p>
 
-Run `$ cabal build` to build the project
-## Documentation
+## Build & run
 
-Run `$ cabal haddock --open` to generate a reference for the API of the project.
+This is a little project to be played with on the REPL.
+`$ cabal repl` should get you sorted (it will install all dependencies first,
+so it might take a bit to run the first time)
