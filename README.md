@@ -1,7 +1,7 @@
 # "Composing Fractals", again
 
 <p align="center">
-  <img src="img/nicePic.png" alt="Some nice image" width="300">
+  <img src="img/nicePic.png" alt="Some nice image" width="400">
 </p>
 
 Some Haskell code for drawing the Mandelbrot and Julia sets, based on Mark P. Jones's 2004 paper ["Composing Fractals"](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/functional-pearl-composing-fractals/EBF5B1EBB717AFEC0CA84FE8A07C5C24).
